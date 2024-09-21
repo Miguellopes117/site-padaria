@@ -1,0 +1,22 @@
+main {
+	margin: 0;
+	background-color: rgb(255, 217, 111);
+}
+
+header {
+	display: flex;
+	padding-left: 150px;
+	padding-right: 150px;
+  background-color: rgb(255, 150, 89);
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer {
+	background-color: rgb(245, 89, 89);
+}
+
+.logo-header {
+	width: 11%;
+	height: 10%;
+}
