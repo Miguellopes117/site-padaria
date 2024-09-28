@@ -7,25 +7,29 @@
     <title>Pão na Chapa</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <img class="logo-header" src="img/logo.png" height="110 px" width="120 px"
             alt="pão na chapa, padaria,logo, pão francês" />
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
-                    <a>inicio</a>
+                    <a href="#inicio">inicio</a>
                 </li>
                 <li>
-                    <a>sobre</a>
+                    <a href="#sobre">sobre</a>
                 </li>
                 <li>
-                    <a>produtos</a>
+                    <a href="#produtos">produtos</a>
                 </li>
                 <li>
-                    <a>contatos</a>
+                    <a href="#contato">contatos</a>
                 </li>
                 <li>
                     <a target="_blank" href="https://chromedino.com/">dino</a>
@@ -35,17 +39,23 @@
 
     </header>
     <main>
-        <section>
-            <h2>bem-vindo a padaria pão na chapa!</h2>
-            <p>
-                Nessa padaria vc encontra todos os tipos de pães possíveis, tem pão assado, tem pão frito, tem pão
-                cozido, tem pão queimado,
-                tem pão cru, tem pão quente, tem pão frio, tem pão seco, e tem até pão duro igual a você meu cliente, e
-                tudo isso de boa
-                qualidade.
-            </p>
+        <section id="inicio">
+            <div>
+                <h2>bem-vindo a padaria pão na chapa!</h2>
+                <p>
+                    Nessa padaria vc encontra todos os tipos de pães possíveis, tem pão assado, tem pão frito, tem pão
+                    cozido, tem pão queimado,
+                    tem pão cru, tem pão quente, tem pão frio, tem pão seco, e tem até pão duro igual a você meu
+                    cliente, e
+                    tudo isso de boa
+                    qualidade.
+                </p>
+            </div>
+            <div>
+                <img src="./img/pao.png" width="50%" height="50%" alt="pão, cesta de pão">
+            </div>
         </section>
-        <section>
+        <section id="sobre">
             <h2>Sobre nós</h2>
             <p>
                 Nossa padaria está fazendo 150 anos de aniversário, fundada em 1874 na avenida paulista,
@@ -54,35 +64,41 @@
             <h6>Atenção a promoção citada no texto acima é apenas para fins de marketing.</h6>
             </p>
         </section>
-        <section>
+        <section id="produtos">
             <div>
                 <h2>Nossos produtos</h2>
-                <div>
-                    <h3>pães</h3>
-                    <p>
-                        temos pães
-                    </p>
-                </div>
-                <div>
-                    <h3>bolos</h3>
-                    <p>temos bolos</p>
-                </div>
-                <div>
-                    <h3>salgados</h3>
-                    <p>temos salgados</p>
+                <div class="produtos">
+                    <div>
+                        <h3 class="a">pães</h3>
+                        <p>
+                            temos pães, ótimos.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="b">bolos</h3>
+                        <p>
+                            temos bolos, ótimos.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="c">salgados</h3>
+                        <p>
+                            temos salgados, ótimos.
+                        </p>
+                    </div>
                 </div>
                 <h6>atenção não temos bolos e nem mesmo salgados apenas pães de alta qualidade.</h6>
             </div>
         </section>
     </main>
     <footer>
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
             <p>Email: faz.o.l@gmail.com</p>
             <p>Tel: (11) 4475-1809</p>
             <p>Rua Paraguai, 203 - Mauá</p>
         </section>
-        <p>
+        <p class="direitos">
         <h6>&copy; 2024 - Padaria Pão na Chapa - todos os direitos quase reservados (ou não)</h6>
         </p>
     </footer>

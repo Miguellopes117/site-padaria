@@ -1,22 +1,105 @@
+html {
+	scroll-behavior: smooth;
+	font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
 main {
 	margin: 0;
-	background-color: rgb(255, 217, 111);
+	background-color: rgb(255, 237, 157);
 }
 
 header {
 	display: flex;
 	padding-left: 150px;
 	padding-right: 150px;
-  background-color: rgb(255, 150, 89);
+  background-color: rgb(253, 183, 92);
 	align-items: center;
 	justify-content: space-between;
 }
 
 footer {
-	background-color: rgb(245, 89, 89);
+	background-color: rgb(204, 170, 147);
 }
 
 .logo-header {
-	width: 11%;
+	width: 16.5%;
+	height: 15%;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type: none;
+}
+.menu li a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.produtos {
+	display: flex;
+}
+
+.a {
+	margin-right: 400px;
+}
+
+.b {
+	margin-right: 400px;
+}
+
+.c {
+	margin-right: 400px;
+}
+
+#inicio {
+	display: flex;
 	height: 10%;
+	align-items: center;
+}
+
+#inicio div {
+	width: 50%;
+	padding-right: 200px;
+	padding-left: 200px;
+	margin-top: 100px;
+}
+
+#sobre {
+	margin-top: 50px;
+	padding-right: 200px;
+	padding-left: 200px;
+	background-color: rgb(128, 92, 52);
+	color: white;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+#produtos {
+	padding-top: 40px;
+	padding-left: 380px;
+	padding-right: 200px;
+	padding-bottom: 100px;
+}
+
+#produtos h2 {
+	margin-top: 100px;
+	margin-right: 270px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(85, 51, 0);
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+footer p {
+	margin: 0;
 }
