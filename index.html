@@ -58,9 +58,9 @@
         <section id="sobre">
             <h2>Sobre nós</h2>
             <p>
-                Nossa padaria está fazendo 150 anos de aniversário, fundada em 1874 na avenida paulista,
+                Nossa padaria está fazendo 250 anos de aniversário, fundada em 1774 na cidade de Xique-xique Bahia,
                 somos muito conhecidos pela comunidade local e esperamos que você venha comemorar com a gente
-                os nossos 150 anos de felicidade e com nossas promoções de até 50%, venha comemorar!!!
+                os nossos 250 anos de felicidade e com nossas promoções de até 2%, venha comemorar!!!
             <h6>Atenção a promoção citada no texto acima é apenas para fins de marketing.</h6>
             </p>
         </section>
@@ -93,16 +93,47 @@
     </main>
     <footer>
         <section id="contato">
-            <h2>Contato</h2>
-            <p>Email: faz.o.l@gmail.com</p>
-            <p>Tel: (11) 4475-1809</p>
-            <p>Rua Paraguai, 203 - Mauá</p>
+            <h2>Fele com nóis pla consegui um pastel de flango</h2>
+            <p>preencha o formulário abaixo e entre em contato. Respondemosa 1 mensagem por década.</p>
+            <form id="form-contato">
+                <div class="grupo">
+                    <p>Nome:</p>
+                    <input id="nome" type="text" placeholder="digita teu nome:" required />
+                </div>
+                <div class="grupo">
+                    <p>Email:</p>
+                    <input id="email" type="text" placeholder="digita teu email:" required />
+                </div>
+                <div class="grupo">
+                    <p>telefone:</p>
+                    <input id="telefone" type="text" placeholder="digita teu telefone:" required />
+                </div>
+                <div class="grupo">
+                    <p>Mensagem:</p>
+                    <textarea id="mensagem" placeholder="Digita tua mensagem:" rows="5" cols="50"></textarea>
+                </div>
+                <button type="submit">enviar os negoço ai</button>
+            </form>
         </section>
         <p class="direitos">
         <h6>&copy; 2024 - Padaria Pão na Chapa - todos os direitos quase reservados (ou não)</h6>
         </p>
     </footer>
+    <script>
+        const form = document.getElementById("form-contato");
 
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const telefone = document.getElementById('telefone').value;
+            const mensagem = document.getElementById('mensagem').value;
+            alert("dados do contato:" + "Nome:" + nome + "Email:" + email + "telefone:" + telefone + "Mensagem:" + mensagem
+            );
+
+        })
+</script>
 </body>
 
 </html>
